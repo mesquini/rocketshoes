@@ -51,6 +51,9 @@ $ cd rocketshoes
 # Install dependencies
 $ yarn install
 
+# Run API fake
+$ json-server server.json -p 3333 -w
+
 # Run the app
 $ yarn start
 ```
