@@ -24,5 +24,6 @@ module.exports = {
     'class-methods-use-this': 'off',
     'no-param-reassing': 'off',
     'no-unused-vars': ['error', { argsIgnorePattern: 'next' }],
+    'no-console': ['error', { allow: ['tron'] }],
   },
 };
