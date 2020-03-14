@@ -5,14 +5,18 @@
 </h1>
 
 <h4 align="center">
-  NetShoes Clone App with React and Redux.
+  NetShoes Clone App with ReactJS and Redux.
 </h4>
+
+<hr>
 
 <p align="center">
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
+
+<hr>
 
 ![App Screenshot](./src/assets/rocketshoes_page.png)
 
