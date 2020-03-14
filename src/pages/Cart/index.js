@@ -8,7 +8,13 @@ import {
   MdDelete,
 } from 'react-icons/md';
 
-import { Container, ProductTable, Total, CartEmpty } from './styles';
+import {
+  Container,
+  ProductTable,
+  Total,
+  EmptyCart,
+  StartShopping,
+} from './styles';
 
 import * as CartActions from '../../store/modeles/cart/actions';
 import { formatPrice } from '../../utils/format';
@@ -25,10 +31,15 @@ function Cart({ cart, removeFromCart, updateAmountRequest, total }) {
   return (
     <Container>
       {cart.length === 0 ? (
-        <CartEmpty>
-          Seu carrinho está vazio
-          <MdRemoveShoppingCart id="icon" size={50} color="red" />
-        </CartEmpty>
+        <EmptyCart>
+          <MdRemoveShoppingCart />
+
+          <div>
+            <h2>Oops...</h2>
+            <p>Looks like your shopping cart is empty!</p>
+            <StartShopping to="/">Start Shopping</StartShopping>
+          </div>
+        </EmptyCart>
       ) : (
         <>
           <ProductTable>
@@ -42,7 +53,7 @@ function Cart({ cart, removeFromCart, updateAmountRequest, total }) {
             </thead>
             <tbody>
               {cart.map(product => (
-                <tr key={product.id} >
+                <tr key={product.id}>
                   <td>
                     <img src={product.image} alt={product.title} />
                   </td>
