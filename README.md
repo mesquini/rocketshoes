@@ -56,7 +56,7 @@ $ cd rocketshoes
 $ yarn install
 
 # Run API fake
-$ json-server server.json -p 3333 -w
+$ json-server db.json -p 3333 -w
 
 # Run the app
 $ yarn start

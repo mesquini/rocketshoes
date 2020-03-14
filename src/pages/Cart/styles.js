@@ -92,3 +92,15 @@ export const Total = styled.div`
     margin-left: 5px;
   }
 `;
+
+export const CartEmpty = styled.div`
+  display: grid;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  #icon {
+    justify-self: center;
+  }
+`;
