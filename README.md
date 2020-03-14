@@ -20,6 +20,12 @@
 
 ![App Screenshot](./src/assets/rocketshoes_page.png)
 
+<p align="center">
+  <a href="https://rocketshoes-mesquini.netlify.com/" title="rocketshoes" target="_blank">
+    <img alt="Demo on Netlify" src="https://res.cloudinary.com/mesquini/image/upload/v1580130380/demo_on_netlify_bbuvjz_gfadtn.png">
+  </a>
+</p>
+
 ## :rocket: Technologies
 
 This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/bootcamp) with the following technologies:
